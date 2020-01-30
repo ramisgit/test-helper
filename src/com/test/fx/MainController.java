@@ -2,13 +2,8 @@ package com.test.fx;
 
 import java.io.File;
 
-import javax.swing.event.ChangeEvent;
-
 import com.test.fx.browser.Browser;
 import com.test.selenium.AutomationSession;
-import com.test.selenium.BrowserManager;
-import com.test.utils.CSV_Handler;
-
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -16,14 +11,12 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
-import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import javafx.stage.FileChooser;
 

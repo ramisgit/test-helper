@@ -1,14 +1,7 @@
 package com.test.selenium;
 
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
-
 import com.test.utils.CSV_Handler;
-
-import javafx.collections.ObservableList;
-import javafx.scene.Node;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 public class AutomationSession implements Runnable {

@@ -1,15 +1,11 @@
 package com.test.utils;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
-import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.test.selenium.Action;
-import com.test.selenium.BrowserManager;
-
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.ComboBox;
@@ -19,7 +15,6 @@ import javafx.scene.layout.VBox;
 
 public class CSV_Handler {
 	private File file;
-	//BrowserManager manager = new BrowserManager();
 	public CSV_Handler(String file_name){
 		this.file = new File(file_name); 
 	}

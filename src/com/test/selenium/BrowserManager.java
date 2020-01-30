@@ -1,7 +1,5 @@
 package com.test.selenium;
 
-import java.io.File;
-
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

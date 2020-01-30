@@ -1,8 +1,5 @@
 package com.test.fx.browser;
 
-import org.w3c.dom.Document;
-
-import javafx.beans.value.ChangeListener;
 import javafx.event.EventHandler;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.web.WebEngine;
