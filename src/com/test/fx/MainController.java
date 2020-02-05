@@ -31,9 +31,9 @@ public class MainController {
 	@FXML
 	public void initialize() {
 		browser.setItems(FXCollections.observableArrayList("Chrome", "Mozilla"));
-		addSuiteTab.setOnSelectionChanged(
-				
-		);
+//		addSuiteTab.setOnSelectionChanged(
+//				
+//		);
 		
 		
 	}
