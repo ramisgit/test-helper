@@ -13,6 +13,7 @@ import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.Tab;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
@@ -26,10 +27,15 @@ public class MainController {
 	@FXML AnchorPane web_view;
 	@FXML TextField URLInput;
 	@FXML ComboBox<String> browser;
-	
+	@FXML Tab addSuiteTab;
 	@FXML
 	public void initialize() {
 		browser.setItems(FXCollections.observableArrayList("Chrome", "Mozilla"));
+		addSuiteTab.setOnSelectionChanged(
+				
+		);
+		
+		
 	}
 	ObservableList<String> li = FXCollections.observableArrayList("Click", "Navigate", 
 			"Maximise Window", "Back", "getElement_Text");
@@ -102,6 +108,9 @@ public class MainController {
 		
 		
 		
+	}
+	public void add_suite_tab() {
+		System.out.println("Adding tab suite");
 	}
 	class Url_Change implements ChangeListener{
 		@Override
